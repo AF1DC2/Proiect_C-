@@ -19,13 +19,15 @@ public:
     void Default();
 
 private slots:
-    void on_pushButton_4_clicked();
+    void Create_New_File();
 
-    void on_pushButton_3_clicked();
+    void Open_File();
 
-    void on_pushButton_clicked();
+    void Add_Row();
 
-    void on_pushButton_2_clicked();
+    void Save();
+
+    void Delete_Row();
 
 private:
     Ui::FereastraPrincipala *ui;
