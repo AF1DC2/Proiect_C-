@@ -27,6 +27,20 @@
        <widget class="QLineEdit" name="lineEdit"/>
       </item>
       <item>
+       <widget class="QComboBox" name="comboBox">
+        <item>
+         <property name="text">
+          <string>Sursă</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Categorie</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
        <widget class="QPushButton" name="pushButton">
         <property name="text">
          <string/>
@@ -53,7 +67,7 @@
           </attribute>
           <column>
            <property name="text">
-            <string>Sumă</string>
+            <string>Sumă(Lei)</string>
            </property>
           </column>
           <column>
@@ -184,6 +198,11 @@
    </property>
   </action>
   <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="action">
    <property name="text">
     <string>Save</string>
    </property>
