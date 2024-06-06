@@ -29,6 +29,14 @@ private slots:
 
     void Delete_Row();
 
+    void Search();
+
+    void Search_Reset();
+
+    void Check_Sum();
+
+    void Check_Date();
+
 private:
     Ui::FereastraPrincipala *ui;
 };
